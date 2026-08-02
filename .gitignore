@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+build/
+**/build/
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+
+# Testing coverage
+coverage/
+**/coverage/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Agent files
+.gemini/
+.agents/
+walkthrough.md
+task.md
+implementation_plan.md
+memory.md
+memory-hooks-pack-cra.md
+
