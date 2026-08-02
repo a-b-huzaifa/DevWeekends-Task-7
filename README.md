@@ -33,17 +33,6 @@ npm install
 npm start
 ```
 
-## Acceptance criteria mapping
-
-- ✅ `useState`, `useEffect`, and `useRef` used appropriately across
-  projects — see the table above.
-- ✅ Weather app fetches and displays live API data — `07-weather-app`
-  calls the free Open-Meteo geocoding + forecast APIs.
-- ✅ Food recipe app has search and filter functionality —
-  `08-food-recipe-app` filters by category (server-side, via API) and
-  searches by name (client-side, over the loaded results).
-- ✅ Clean Codebase — Streamlined comments; all boilerplate template comments and redundant hook explanations have been removed.
-
 ## Design
 
 All 8 apps share a consistent brutalist look (bold black borders, hard
